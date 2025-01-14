@@ -1,0 +1,85 @@
+{
+	// Place your snippets for cpp here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"boil": {
+		"prefix": "boi",
+		"body": [
+			"#include<bits/stdc++.h>",
+			"using namespace std;",
+			"",
+			"#define FAST ios_base:: sync_with_stdio(0); cin.tie(0); cout.tie(0);",
+			"#define yes cout<<\"YES\\n\"",
+			"#define no cout<<\"NO\\n\"",
+			"#define dd double",
+			"#define PI acos(-1.0)",
+			"#define ff first",
+			"#define ss second",
+			"#define all(v) v.begin(),v.end()",
+			"#define bit(a) __builtin_popcount(a)",
+			"#define srt(v) sort(all(v))",
+			"#define strlower(str) transform(all(str),str.begin(),::tolower);",
+			"#define strupper(str) transform(all(str),str.begin(),::toupper);",
+			"#define rev(v) reverse(all(v));",
+			"#define sum(v,n) accumulate(all(v),n);",
+			"#define vvi	vector<int>v",
+			"#define nlin cout<<endl",
+			"#define gcd(a,b) __gcd(a, b)",
+			"#define pf(v,n) v.insert(v.begin(), n)",
+			"#define lcm(a,b) a*b/gcd(a,b)",
+			"#define FOR(i, n) for (int i = 0; i < n; i++)",
+			"#define w(t) while(t--)"
+			"#define file() freopen(\"input.txt\",\"r\",stdin);freopen(\"output.txt\",\"w\",stdout);",
+			"//Debugging code from: https://github.com/Priyansh19077/YouTube-links/blob/main/Debugging.cpp",
+			"#define debug(x) cout << #x <<\" \"; _print(x); cout << endl;",
+			"//#define debug(x, y) print(x, y); cout<<endl;",
+			"",
+			"typedef long long ll;",
+			"typedef unsigned long long ull;",
+			"typedef long double lld;",
+			" ",
+			" ",
+			"template <class T>void _print(T val) {cout << val;}",
+			"",
+			"",
+			"template <class T, class V> void _print(pair <T, V> p);",
+			"template <class T> void _print(vector <T> v);",
+			"template <class T> void _print(set <T> v);",
+			"template <class T, class V> void _print(map <T, V> v);",
+			"template <class T, class V> void _print(multimap <T, V> v);",
+"template <class T> void _print(multiset <T> v);",
+"template <class T, class V> void _print(pair <T, V> p) {cout << \"{\"; _print(p.ff); cout << \",\"; _print(p.ss); cout << \"}\";}",
+"template <class T> void _print(vector <T> v) {cout << \"[ \"; for (T i : v) {_print(i); cout << \" \";} cout << \"]\";}",
+"template <class T> void _print(set <T> v) {cout << \"[ \"; for (T i : v) {_print(i); cout << \" \";} cout << \"]\";}",
+"template <class T> void _print(multiset <T> v) {cout << \"[ \"; for (T i : v) {_print(i); cout << \" \";} cout << \"]\";}",
+"template <class T, class V> void _print(map <T, V> v) {cout << \"[ \"; for (auto i : v) {_print(i); cout << \" \";} cout << \"]\";}",
+"template <class T, class V> void _print(multimap <T, V> v) {cout << \"[ \"; for (auto i : v) {_print(i); cout << \" \";} cout << \"]\";}",
+"template <typename T>void print(const T a[], int s) {cout << \"[ \";FOR(i,s){cout<<a[i]<<\" \";} cout << \"]\";}",
+"",
+"",
+
+			"void solve(){",
+			"$1"
+			"",
+			"",
+				
+			"}",
+				"",
+				"",
+			"int main(){",
+				"FAST",
+				"int t=1;",
+				"cin>>t;",
+				"w(t) solve();",
+				
+		"}",
+				
+			
+			
+			
+		],
+		"description": "Log output to console"
+	}
+}
